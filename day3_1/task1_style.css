@@ -1,0 +1,40 @@
+body {
+    background: #cdcdcd;
+}
+.container {
+    box-sizing: border-box;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.menu {
+
+    justify-content: space-between;
+    max-width: 400px;
+}
+.link1, .link2, .link3, .link4 {
+    box-sizing: border-box;
+    padding: 0 18px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.active {
+    padding: 2px 18px;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    pointer-events: none;
+    background: white;
+    color: gray;
+}
+.text {
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;
+    padding: 60px 60px;
+    border: 1px solid black;
+    background: white;
+}

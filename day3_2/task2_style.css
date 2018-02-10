@@ -1,0 +1,34 @@
+body {
+    background: white;
+}
+.container {
+    box-sizing: border-box;
+    max-width: 304px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.first, .second {
+    box-sizing: border-box;
+    height: 40px;
+    width: 150px;
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    border-radius: 5px;
+    box-shadow: 3px 0 0 0 #3b3232;
+    cursor: pointer;
+}
+.active {
+    background: #3b3131;
+}
+.text1, .text2 {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 150px;
+    height: 300px;
+    background: #e5d8d8;
+    border: 1px solid white;
+}
+.hidden {
+    visibility: hidden;
+}
