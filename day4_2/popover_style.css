@@ -1,0 +1,80 @@
+body {
+    margin: 0 auto;
+}
+.text1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 60px 60px;
+    width: 750px;
+    height: 300px;
+    background: black;
+    color: white;
+}
+.text2 {
+    position: absolute;
+    left: 0;
+    top: 320px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 60px 60px;
+    width: 750px;
+    height: 300px;
+    background: black;
+    color: white;
+}
+.one {
+    color: white;
+    text-decoration: none;
+}
+.btn {
+    width: 130px;
+    height: 40px;
+    background: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+.window1 {
+    display: none;
+    position: absolute;
+    right: 300px;
+    top: 55px;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    width: 170px;
+    height: 200px;
+    background: white;
+    color: dimgray;
+}
+.window1::after {
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    left: -30px;
+    top: 10px; /* Положение треугольника */
+    border: 20px solid transparent;	border-right: 20px solid white;
+}
+.window2 {
+    display: none;
+    position: absolute;
+    right: 300px;
+    top: 55px;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    width: 170px;
+    height: 200px;
+    background: white;
+    color: dimgray;
+}
+.window2::after {
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    left: -30px;
+    top: 10px; /* Положение треугольника */
+    border: 20px solid transparent;	border-right: 20px solid white;
+}
+.active {
+    display: block;
+}
