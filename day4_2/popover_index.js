@@ -8,9 +8,7 @@ link1.onmouseout=function () {
 }
 var info2=document.querySelector('.window2');
 var btn=document.querySelector('.btn');
-btn.onclick=function () {
-    info2.classList.add('active');
-}
-info2.onclick=function () {
-    info2.classList.remove('active')
-}
+    btn.onclick = function () {
+    info2.classList.toggle('active');
+    }
+

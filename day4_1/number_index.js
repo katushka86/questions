@@ -7,4 +7,4 @@ var getN=function (numbers) {
         }
         return count;
     }
-    alert (getN('-5879-4-794'));
+    alert (getN([-5,8,7,9,-4,-7,9,4]));

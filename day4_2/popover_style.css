@@ -7,7 +7,7 @@ body {
     top: 0;
     box-sizing: border-box;
     margin-bottom: 20px;
-    padding: 60px 60px;
+    padding: 60px 30px;
     width: 750px;
     height: 300px;
     background: black;
@@ -19,7 +19,7 @@ body {
     top: 320px;
     box-sizing: border-box;
     margin-bottom: 20px;
-    padding: 60px 60px;
+    padding: 60px 30px;
     width: 750px;
     height: 300px;
     background: black;
@@ -40,8 +40,8 @@ body {
 .window1 {
     display: none;
     position: absolute;
-    right: 300px;
-    top: 55px;
+    left: 150px;
+    top: 45px;
     box-sizing: border-box;
     padding: 20px 20px;
     width: 170px;
@@ -59,7 +59,7 @@ body {
 .window2 {
     display: none;
     position: absolute;
-    right: 300px;
+    right: 400px;
     top: 55px;
     box-sizing: border-box;
     padding: 20px 20px;
